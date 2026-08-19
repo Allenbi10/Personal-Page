@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Allen's Computer Science portfolio." />
+    <title>Allen — Computer Science Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input class="theme-toggle" type="checkbox" id="theme-toggle" aria-label="Switch to light theme" />
+    <div class="site-shell">
+    <div class="space-art" aria-hidden="true">
+      <div class="constellation constellation-one"><i></i><i></i><i></i><i></i><i></i><b></b><b></b><b></b><b></b></div>
+      <div class="constellation constellation-two"><i></i><i></i><i></i><i></i><b></b><b></b><b></b></div>
+      <span class="shooting-star star-one"></span>
+      <span class="shooting-star star-two"></span>
+    </div>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Allen's homepage">A<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </nav>
+      <div class="header-actions">
+        <label class="theme-switch" for="theme-toggle" title="Toggle light and dark theme"><span class="switch-icon">☼</span><span class="switch-text">Light mode</span></label>
+        <a class="header-link" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow"><span class="status-dot"></span> Computer Science student</p>
+        <h1 id="hero-title">Building curious<br /><em>ideas</em> into code.</h1>
+        <div class="hero-bottom">
+          <p class="intro">Hi, I’m Allen — an aspiring software engineer learning to design thoughtful digital experiences and solve problems that matter.</p>
+          <a class="round-link" href="#projects" aria-label="Explore Allen's work">↓</a>
+        </div>
+      </section>
+
+      <section class="about section-rule" id="about">
+        <p class="section-label">01 / ABOUT ME</p>
+        <div class="about-copy">
+          <h2>A computer science student with a love for making things work <em>beautifully.</em></h2>
+          <p>I’m Allen BI, a computer science student interested in building software that feels useful, creative, and fun to use. I enjoy the process of taking an idea apart, understanding how it works, and using code to turn it into something people can interact with.</p>
+          <p>Game development is one of the areas I’m most excited to explore. I’m drawn to the blend of programming, problem-solving, visual design, and storytelling that goes into creating games. As I continue learning, I want to build interactive experiences, experiment with gameplay systems, and develop the technical skills behind polished game worlds.</p>
+          <p>I’m also eager to learn from ambitious teams, contribute to meaningful projects, and grow into a thoughtful software engineer. This portfolio will document that journey — from my first projects and technical skills to the bigger ideas I hope to bring to life.</p>
+          <a class="text-link" href="#contact">Get in touch <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="projects section-rule" id="projects">
+        <div class="section-heading">
+          <p class="section-label">02 / SELECTED WORK</p>
+          <p class="small-note">Future projects will live here.<br />Check back soon.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card cobalt">
+            <div class="card-top"><span>01</span><span>COMING SOON</span></div>
+            <div class="abstract-shape shape-orbit"><i></i><b></b></div>
+            <div><h3>Project One</h3><p>A future build, experiment, or idea.</p></div>
+          </article>
+          <article class="project-card citrus">
+            <div class="card-top"><span>02</span><span>COMING SOON</span></div>
+            <div class="abstract-shape shape-grid"><i></i><i></i><i></i><i></i></div>
+            <div><h3>Project Two</h3><p>Something useful is taking shape.</p></div>
+          </article>
+          <article class="project-card ink">
+            <div class="card-top"><span>03</span><span>COMING SOON</span></div>
+            <div class="abstract-shape shape-code">&lt;/&gt;</div>
+            <div><h3>Project Three</h3><p>The next problem I want to solve.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="game-showcase section-rule" aria-labelledby="game-showcase-title">
+        <p class="section-label">03 / GAME DEVELOPMENT</p>
+        <div class="showcase-content">
+          <div class="showcase-copy">
+            <p class="eyebrow"><span class="status-dot"></span> Featured visual</p>
+            <h2 id="game-showcase-title">Exploring worlds through <em>play.</em></h2>
+            <p>This is a snapshot from a game-inspired project space. It represents the kind of interactive work I’m excited to explore as I develop my skills in programming, gameplay systems, and game design.</p>
+          </div>
+          <figure class="game-image">
+            <img src="game-development-showcase.png" alt="Top-down forest game scene with a player, supply crates, and a health display" />
+            <figcaption>Game development showcase</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="skills section-rule" id="skills">
+        <p class="section-label">04 / TOOLKIT</p>
+        <div class="skills-content">
+          <h2>Always adding to<br />my toolbox.</h2>
+          <div class="skill-list" aria-label="Skills placeholders">
+            <span>Programming</span><span>Web Development</span><span>Data &amp; AI</span><span>Problem Solving</span><span>Collaboration</span><span>More to come</span>
+          </div>
+          <p class="skills-note">This space is reserved for the languages, tools, and technologies I’m learning along the way.</p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="section-label">05 / GET IN TOUCH</p>
+        <h2>Let’s make something<br /><em>meaningful.</em></h2>
+        <p>I’m looking forward to connecting with people and teams who care about building great things.</p>
+        <div class="contact-details" aria-label="Contact information">
+          <div><span>Name</span><strong>Allen BI</strong></div>
+          <div><span>Email</span><a href="mailto:email@gmail.com">email@gmail.com</a></div>
+          <div><span>Phone</span><strong>__________</strong></div>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="GitHub profile placeholder">GitHub <span>↗</span></a>
+          <a href="#" aria-label="LinkedIn profile placeholder">LinkedIn <span>↗</span></a>
+          <a href="mailto:hello@example.com">Email <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>© 2026 ALLEN</span><span>DESIGNED &amp; BUILT WITH CURIOSITY</span></footer>
+    </div>
+  </body>
+</html>
